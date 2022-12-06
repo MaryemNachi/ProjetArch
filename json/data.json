@@ -1,0 +1,24 @@
+[
+   {
+        "id": "1",
+        "image":"../im3.png",
+        "name": "Project name",
+        "location": "Project location",
+        "cat": "VILLAS"
+
+    },
+    {
+        "id": "2",
+        "image":"../im2.png",
+        "name":"Project name",
+        "location": "Project location",
+        "cat": "VILLAS"
+    },
+    {
+        "id": "3",
+        "image":"../im1.png",
+        "name": "Project name",
+        "location":"Project location",
+        "cat": "OFFICES"
+    }
+]

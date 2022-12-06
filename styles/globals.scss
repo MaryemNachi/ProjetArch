@@ -1,0 +1,335 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+@import url('https://fonts.googleapis.com/css?family=Lorin&display=swap');
+html, body {
+    margin: 0px;
+    padding: 0px;
+
+
+nav{
+    display: flex;
+    align-items: center;
+    .logo{
+        margin-left: 14px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: #333;
+    
+
+    }
+    .links{
+        padding: 40px;
+        margin-left: auto;
+        justify-content: space-between;
+        text-align: right;
+        .menu{
+            padding-left: 10px;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: 'Inter';
+            font-size: 15px;
+            font-weight: 100;
+            height: 8px;
+            line-height: 17px;
+            color: #262525;
+    
+        }
+    
+    }
+   
+ 
+}
+footer{
+    background: #323232;
+    height: 280px;
+    position:relative;
+    margin-top: 80px;
+    margin-bottom: 42px;
+   
+
+    
+    .footer__container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+       margin-left: auto;
+       margin-right: auto;
+       align-items: center;
+       text-align: center;
+      
+        .menu{
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-top: 55px;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: 'Lorin';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 8px;
+            line-height: 10px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            
+            color: #FFFFFF;
+        }
+       
+    }
+    .container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+     .logo{
+        margin-top: 50px;
+        margin-bottom: -10px;
+     }
+            .name{
+                
+                color: white;
+                font-family: 'inter'; 
+                font-size: 15px;
+                text-transform: uppercase;
+                
+            }
+            .prof{
+                margin-top: -19px;
+               
+                color: white;
+                font-size: 8px;
+                letter-spacing: 0.5em;
+                 font-family: 'inter'; 
+                 text-transform: uppercase; 
+            }
+    }
+   
+  }
+  .titres{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    p{
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        margin-bottom: 9px;
+        /* identical to box height */
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        
+        color: #3F3F3F;
+        
+    }
+   
+    .links
+        
+        {   display:inline;
+            text-decoration: none;
+            padding: 7px;           
+            font-family: 'inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 10px;
+            color: #918D8D;
+            
+      }
+  }
+ .projets-container{
+
+    .projet{
+        .projet-image{
+            .image-resize{
+                margin-top: 24px;
+                width: 100%;                
+            }
+            hr{
+                width: 94%;
+                margin-top: 25px;
+                border-top: solid #3E3E3E;             
+                }
+        }
+        
+       
+       
+        .projet-info{
+            h3{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15.0628px;
+                line-height: 20px;
+                margin-top: 0%;
+                margin-bottom: -4px;
+                margin-left: 6.12px;
+                text-transform: capitalize;
+                color: #3F3F3F;
+            }
+            p{
+               
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 9.03766px;
+                line-height: 12px;
+                margin-left: 8.28px;
+                text-transform: uppercase;
+                color: #8B8585;
+            }
+        }
+
+            }
+ }
+ .about{
+  
+            .title{
+
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 43px;
+            letter-spacing: 0.08em;
+            color: #3F3F3F;
+        }
+        .about-container{
+            max-width: 300px;
+           
+            margin-left: 10%;
+            margin-right: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+     
+        .name{
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 32px;
+            text-transform: capitalize;
+            color: #2A2A2A;
+        }
+        .opt{
+            
+            position: absolute;
+            margin-top: -20px;
+            width: 124px;
+            font-weight: lighter;
+            font-size: 12px;
+            line-height: 20px;
+            text-transform: capitalize;
+            height: 8px;
+            line-height: 17px;
+            color: #262525;
+        }
+        img{
+            width: 180px;
+            height: 200px;
+            left: 526px;
+            margin-top: 20px;
+        }   }
+        .titre{
+            
+            height: 20px;
+            font-family: 'Segoe UI';
+            margin-top: 40px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 17px;
+            text-transform: capitalize;
+
+            color: #2A2A2A;
+
+        }
+        .bio{
+            
+            font-family: 'inter';
+            font-style: normal;
+            font-weight: 100;
+             font-size: 13px;
+            line-height: 20px;
+            color: #262525;
+            
+         }
+         
+        .carriere{
+            display: flex;
+            align-items: baseline;
+            height: auto;
+            span{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 17px;
+                text-transform: capitalize;
+            
+            }
+            .par{
+                padding-left: 20px;
+                font-family: 'inter';
+                font-style: normal;
+                font-weight: 100;
+                font-size: 12px;
+                line-height: 16px;
+                text-transform: capitalize;
+                height: auto;
+                color: #262525;
+                
+                
+            }
+        }
+    }
+    .contact{
+       margin-left: 20%;
+       margin-top: 6%;
+        max-width: 250px;
+        .titre{
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 70px;
+            letter-spacing: 0.08em;
+            color: #3F3F3F;
+        }
+        .title{
+            
+                font-family: 'inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 40px;
+                text-transform: capitalize;
+
+                color: #2A2A2A;
+        }
+        ul{
+            padding-left: 15px;
+            li{
+         
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 40px;
+                text-decoration-line: underline;
+                color: #6B6B6B;
+                        }
+        }
+      
+    }
+}
+
+ 
